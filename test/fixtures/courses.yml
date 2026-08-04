@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# == Schema Information
+#
+# Table name: courses
+#
+#  id          :integer          not null, primary key
+#  description :string
+#  published   :boolean          default(FALSE)
+#  title       :string
+#  visible     :boolean          default(FALSE)
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+one:
+  title: MyString
+  description: MyString
+  published: false
+  visible: false
+
+two:
+  title: MyString
+  description: MyString
+  published: false
+  visible: false
